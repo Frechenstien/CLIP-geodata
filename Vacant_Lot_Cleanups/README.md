@@ -11,7 +11,7 @@ Dates and locations of when lots were cleaned (removing weeds, debris, etc.) thr
 | ----- | :----------:    
 | Counc_Dist | Council District
 | ZIP | Zip Code
-| LotNum | 
+| LotNum | Street number for the first of potentially multiple lots that were cleaned (see both the Address field and the SumParcels field)
 | SumParcels | Number of parcels cleaned
 | OwnderID | Whether the lot is privately owned or owned a city agency, in which case the agency of ownership is indicated
 | Abate_Date | Date the lot was cleaned up (i.e. abated)
