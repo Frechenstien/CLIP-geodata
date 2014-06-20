@@ -9,15 +9,16 @@ Dates and locations of when lots were cleaned (removing weeds, debris, etc.) thr
 
 | Field | Description  
 | ----- | :----------:    
-| Counc_Dist | Council District
-| ZIP | Zip Code
-| LotNum | Street number for the first of potentially multiple lots that were cleaned (see both the Address field and the SumParcels field)
-| SumParcels | Number of parcels cleaned
-| OwnderID | Whether the lot is privately owned or owned a city agency, in which case the agency of ownership is indicated
-| Abate_Date | Date the lot was cleaned up (i.e. abated)
-| Address | Address of the lot that was cleaned up
+| id | Unique row id
+| XCoord | 
+| YCoord | 
+| Address | Address of the lot that was cleaned
+| Zip | The last two digits of the Zip code for the address cleaned.  These two digits would follow '191' as in '19124'
+| Inspection |  Date and time the property was inspected
+| Abatement | Date and time the property was abated
+| Descriptio | Short description of the violation(s) present on site
 | LAT | The Latitude coordinate of the address
-| LON | The Longitude coordinate of the address
+| LNG | The Longitude coordinate of the address
 
 
 ###Credits
