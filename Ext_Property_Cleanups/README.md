@@ -10,8 +10,8 @@ Dates and locations of when lots were cleaned (removing weeds, debris, etc.) thr
 | Field | Description  
 | ----- | :----------:    
 | id | Unique row id
-| XCoord | 
-| YCoord | 
+| XCoord | X coordinate in 2272
+| YCoord | Y coordinate in 2272
 | Address | Address of the lot that was cleaned
 | Zip | The last two digits of the Zip code for the address cleaned.  These two digits would follow '191' as in '19124'
 | Inspection |  Date and time the property was inspected
